@@ -1,0 +1,11 @@
+#fields{
+    margin: 4px;
+    padding: 4px;
+    border: 4px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
