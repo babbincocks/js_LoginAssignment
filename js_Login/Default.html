@@ -7,16 +7,24 @@
     <title>Login</title>
     <link href="main.css" rel="stylesheet">
 </head>
-<body>
-    <div>
-        <p>Login: <input type="text" id="txtLogin" class="fields" autocomplete="username"></p> <br/> &nbsp;
-        <p>Password: <input type="text" id="txtPass" class="fields"></p> <br/> &nbsp;
-        <p>Password Confirmation: <input type="text" id="txtPassConf" class="fields"></p>
-
+<body id="bg">
+    <div id="subSec">
+        <p>Login: <input type="text" id="txtLogin" class="fields" autocomplete="username"></p> <br/> 
+        <p>Password: <input type="password" id="txtPass" class="fields" ></p> <br/>
+        <p>Password <br/> Confirmation: <input type="password" id="txtPassConf" class="fields"></p>
+        <br/>
         <input type="button" id="btnSubmit" value="Submit" onclick="checkLogin(document.getElementById('txtLogin').value, document.getElementById('txtPass').value, document.getElementById('txtPassConf').value)">
+
+        <br/>
+        <br/>
+
+        <ul id="errList">
+            
+        </ul>
     </div>
     
 
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>

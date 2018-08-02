@@ -5,7 +5,22 @@
 }
 
 p{
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 2px;
+    padding: 2px;
+}
+
+#bg
+{
+    background-size: inherit;
+    background: linear-gradient(to bottom, #817F82, #AE8CA3, #A2ABB5, #95D9DA, #6DD6DA) no-repeat center fixed;
+}
+
+#subSec
+{
+    background: lavender;
+    border: 2px;
+    border-style: ridge;
+    padding: 3px;
+    margin: 3px;
+    width: 33%;
 }
